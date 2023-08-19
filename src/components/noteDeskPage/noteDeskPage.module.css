@@ -1,0 +1,22 @@
+.note-desk-page {
+    width: 100%;
+    height: calc(100% - 110px);
+    min-width: 1024px;
+}
+
+.note-desk-page__controls {
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.note-desk-page__dragzone {
+    height: 100%;
+}
+
+.note-desk-page__buttons-holder {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 10px;
+}
